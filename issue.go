@@ -68,6 +68,7 @@ type Issue struct {
 	CustomFields []*CustomField `json:"custom_fields,omitempty"`
 	Uploads      []*Upload      `json:"uploads"`
 	Journals     []*Journal     `json:"journals"`
+	DoneRatio    int            `json:"done_ratio"`
 }
 
 type IssueFilter struct {
